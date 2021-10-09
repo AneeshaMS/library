@@ -18,7 +18,7 @@ html, body{
     background: linear-gradient(rgba(0,0, 0, 0.1), #152401),url(../images/photolib.jpg);
     background-position: center; 
     background-size:cover!important; 
-    height: 100vh;
+    height: 100vh; 
     width:auto;
     color:#fff;
    
@@ -115,11 +115,11 @@ ul li:after{
 
  /* ----------------------Footer------------ */
   
-.footer p{
+/* .footer p{
     text-align: center;
     padding-top: 20px;
     color:rgb(135, 99, 7);
-} 
+}  */
 
 
 .fa, .far{

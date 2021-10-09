@@ -14,7 +14,7 @@
 }
 .banner{
 
-    background: radial-gradient(rgba(0,0, 0, 0.5), #152401),url(../images/bg1.jpg);
+    /* background: radial-gradient(rgba(0,0, 0, 0.5), #152401),url(../images/bg1.jpg); */
     background-position: center; 
     background-size: cover; 
     height: 100px;
@@ -32,7 +32,7 @@
 .nav-link{
     color: white!important;
     font-weight: 700px;
-    font-size:18px;
+    font-size:20px;
     font-family:cursive;
 }
 .navbar-nav li{

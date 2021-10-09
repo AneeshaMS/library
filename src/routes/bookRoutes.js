@@ -5,41 +5,41 @@ const booksRouter=express.Router();
   
     var books=[
         {
-            title:'Karnan',
-            author:'Sivaji Savanth',
-            genre:'Classic Novel',
-            img:'karnan.jpg'
+            title:'Khasakkinte Itihasam',
+            author:'O.V.Vijayan',
+            genre:' Novel',
+            img:'kasak.jpg'
         },
         
         {
-            title:'Aadujeevitham',
-            author:'Benyamin',
-            genre:'Novel',
-            img:'benyamin.jpg'
+            title:'The Great Gatsby ',
+            author:'F. Scott Fitzgerald',
+            genre:'Tragedy',
+            img:'gatsby.jpg'
         },
         {
-            title:'The four winds',
-            author:'Kristin Hannah',
-            genre:'Novel',
-            img:'four winds.jpg'
+            title:'Cien años de soledad ',
+            author:'Gabriel García Márquez',
+            genre:'Magical Realism',
+            img:'cien.jpg'
         },
         {
-            title:'One last stop',
-            author:'Casey MCQuiston',
-            genre:'Novel',
-            img:'onelast stop.jpg'
+            title:'Odyssey',
+            author:'Homer',
+            genre:'Epic Poem',
+            img:'odyssey.jpg'
         },
         {
-            title:'7 secrets of Eucharist',
-            author:'Vinny Flyn',
-            genre:'Religious',
-            img:'vinny flyn.jpg'
+            title:'The Room on the Roof',
+            author:'Ruskin Bond',
+            genre:'Fiction',
+            img:'room.jpg'
         },
         {
-            title:'Digital Communication',
-            author:'Simon Haykins',
-            genre:'Education',
-            img:'haykin_simon_2.jpg'
+            title:'The God of Small Things',
+            author:'Arundhati Roy',
+            genre:'Family Drama Novel',
+            img:'god.jpg'
         }
        
     ]
@@ -47,23 +47,23 @@ const booksRouter=express.Router();
 
     var glossarys=[
         {
-           content:'Malayalam version of the novel Mrityunjay, penned by Shivaji Sawant, one of the most known writers in Marathi. Karnan tells the story of Karna, one of the leading characters of the epic Mahabharath. This book was translated in Hindi (1974), English (1989), Kannada (1990), Gujarati (1991), Malayalam (1995) and received numerous awards and accolades.it  is a classic novel written by Shivaji Sawant on the life of Karna, the greatest tragic hero in Indian history. Despite being dedicated to the life and times of the benign hero, it highlights significant characters from the Mahabharata and also a socio-political frame of the time.'
+           content:"Khasakkinte Itihasam is a Malayalam debut novel by the Indian writer O. V. Vijayan (1930–2005). It was first serialised in 1968 and published as a single edition in 1969. The novel has been translated from Malayalam into French by Dominique Vitalyos.The novel tells the story of a young university student, who leaves a promising future to take up a primary school teacher’s job in a remote village (Khasak). Little by little, the village reveals its secrets. The protagonist is soon bewitched by this ancient village where dreams and legends intermingle. He immerses himself in the 'bewitching sensuousness' of the new 'rustic, amoral world', only to emerge as an 'involved outsider'.He finds rational inquiry meaningless and begins a metaphorical journey inwards.The novel is often associated with the general disillusionment with the communist movement in Kerala in the 1960s."
         },
         {
-            content:'Goat Days is a 2008 Malayalam novel about an abused migrant worker in Saudi Arabia written by Bahrain-based Indian author Benyamin.The novel is based on real-life events and was a best seller in Kerala. According to media, Benyamin became an "overnight sensation" with the publication of this "hard-hitting story" and is currently one of the top sellers in Malayalam. The original Malayalam version of Goat Days has gone through over 100 reprints.The novel depicts the life of Najeeb Muhammed, an Indian emigrant going missing in Saudi Arabia.'
+            content:"The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, near New York City, the novel depicts first-person narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.The novel was inspired by a youthful romance Fitzgerald had with socialite Ginevra King, and the riotous parties he attended on Long Island's North Shore in 1922. Following a move to the French Riviera, Fitzgerald completed a rough draft of the novel in 1924. He submitted it to editor Maxwell Perkins, who persuaded Fitzgerald to revise the work over the following winter. After making revisions, Fitzgerald was satisfied with the text, but remained ambivalent about the books title and considered several alternatives. Painter Francis Cugat's cover art greatly impressed Fitzgerald, and he incorporated aspects of it into the novel."
         },
         {
-            content : 'The Four Winds is a deeply moving, powerful story about the strength and resilience of women and the bond between mother and daughter, by the multi-million copy number one bestselling author of The Nightingale, Kristin Hannah. Elsa Wolcott is a woman trying to raise two children on farm in the Great Plains during the Dust Bowl following the Great Depression. She watches as the lands around her crack in their perpetually parched state and the hopelessness threatens to breaks the spirit of those around her.As the situation worsens, Elsa is forced to make a decision to stay and fight or leave for the uncertain and unfamiliar lands in the West. In this tale, Kristin has written a survival story about resilience, love, family, courage and the American Dream.'
-        },
-            {
-            content:'In her sophomore romance One Last Stop, Casey McQuiston has managed to do what no one else has: Make the New York City subway  magical — and make readers feel so five minutes ago for not having our own public transit meet-cutes.One Last Stop is an electrifying romance that synapses into the dreamy "Hot Person Summer" kind of story you wish you were a part of.Even so, McQuiston delicately juxtaposes the past with the present, evoking nostalgia for classic music (and terrestrial radio!) and beloved institutions, while brewing possibilities for a more accepting society.'
-        },
-        {
-            content:'One of the best books for helping meditate on the great mystery of the Holy Eucharist. Great book to buy! Here’s my summary of the book: Exploring the mysteries of the Eucharist is like discovering a bottomless treasure chest; as you unpack each gem, it reveals another that was hidden from view. No matter how many you discover, there are always more.'
-        },
-        {
-            content:' Digital communication systems offers the most complete, up-to-date coverage available on the principles of digital communications. Focuses on basic issues, relating theory to practice wherever possible. Numerous examples, worked out in detail, have been included to help the reader develop an intuitive grasp of the theory. Topics covered include the sampling process, digital modulation techniques, error-control coding, robust quantization for pulse-code modulation, coding speech at low bit radio, information theoretic concepts, coding and computer communication. Because the book covers a broad range of topics in digital communications, it should satisfy a variety of backgrounds and interests.'
-        }
+            content:'One Hundred Years of Solitude (Spanish: Cien años de soledad, American Spanish: [sjen ˈaɲoz ðe soleˈðað]) is a landmark 1967 novel by Colombian author Gabriel García Márquez that tells the multi-generational story of the Buendía family, whose patriarch, José Arcadio Buendía, founded the (fictitious) town of Macondo. The novel is often cited as one of the supreme achievements in literature.'
+         },
+         {
+            content:"The Odyssey is one of two major ancient Greek epic poems attributed to Homer. It is one of the oldest extant works of literature still read by contemporary audiences. As with the Iliad, the poem is divided into 24 books. It follows the Greek hero Odysseus, king of Ithaca, and his journey home after the Trojan War. After the war itself, which lasted ten years, his journey lasted for ten additional years, during which time he encountered many perils and all his crew mates were killed. In his absence, Odysseus was assumed dead, and his wife Penelope and son Telemachus had to contend with a group of unruly suitors who were competing for Penelope's hand in marriage."
+         },
+         {
+            content:"The Room on the Roof is a novel written by Ruskin Bond. It was Bond's first literary venture. Bond wrote the novel when he was seventeen[2] and won the John Llewellyn Rhys Memorial Prize in 1957.[2][3] The novel revolves around Rusty, an orphaned seventeen-year-old Anglo-Indian boy living in Dehradun. Due to his guardian, Mr Harrison's strict ways, he runs away from his home to live with his Indian friends."
+         },
+         {
+            content:"The God of Small Things is a family drama novel written by Indian writer Arundhati Roy. It's Roy's debut novel. It is a story about the childhood experiences of fraternal twins whose lives are destroyed by the 'Love Laws' that lay down 'who should be loved, and how. And how much.' The book explores how the small things affect people's behavior and their lives. The book also reflects its irony against casteism, which is a major discrimination that prevails in India. It won the Booker Prize in 1997." 
+         }
     ]
     booksRouter.get('/',function(req,res){
         res.render("books",{

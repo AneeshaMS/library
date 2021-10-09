@@ -15,10 +15,10 @@
 }
 .banner{
 
-    background: radial-gradient(rgba(0,0, 0, 0.5), #152401),url(../images/bg1.jpg);
+    /* background: radial-gradient(rgba(0,0, 0, 0.5), #152401),url(../images/bg1.jpg); */
     background-position: center; 
     background-size: cover; 
-    height: 100px;
+    /* height: 100px; */
     width:auto;
     color:#fff;
 }
